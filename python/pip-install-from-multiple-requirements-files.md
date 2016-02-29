@@ -6,6 +6,5 @@ file (req.txt) with:
 -r requirements_2.txt
 -r requirements_3.txt
 
-
 Then run pip as follows:
-`pip install -r  req.txt`
+`pip install -r req.txt`
