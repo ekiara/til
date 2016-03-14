@@ -27,3 +27,6 @@ The solution is to install requests[security] with pip:
 [In Fedora/CentOS]
 
 # TODO
+
+RESOURCES:
+http://stackoverflow.com/questions/29134512/insecureplatformwarning-a-true-sslcontext-object-is-not-available-this-prevent
