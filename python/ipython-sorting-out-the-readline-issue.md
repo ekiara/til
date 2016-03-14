@@ -1,5 +1,12 @@
 IPython, sorting out the readline issue
 
+Essentially, you first need to install libraries with names similar to
+'libreadline-dev' and 'libcurses-dev' to your distro (Ubuntu is differenct
+from Fedora etc)
+
+And second you need to run the `pip install readline` command to install
+readline library to your python-environment/virtualenv.
+
 [Ubuntu]
 
 (venv)$ sudo apt-get install libreadline-gplv2-dev libncursesw5-dev \
