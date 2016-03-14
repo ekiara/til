@@ -13,7 +13,13 @@ readline library to your python-environment/virtualenv.
     libssl-dev libsqlit e3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev                                                                            
 (venv)$ sudo apt-get install libncurses5-dev
 (venv)$ pip install readline
+(venv)$ pip install --upgrade readline
 
 [Fedora / CentOS]
 
-# TODO
+(venv)$ sudo yum search curses|grep lib
+(venv)$ sudo yum install ncurses-libs.x86_64 ncurses-static.x86_64 ncurses-devel.x86_64
+(venv)$ sudo yum search readline|grep lib
+(venv)$ sudo yum install readline.x86_64
+(venv)$ pip install readline
+(venv)$ pip install --upgrade readline
