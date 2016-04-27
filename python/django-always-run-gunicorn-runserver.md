@@ -1,6 +1,6 @@
 In development you should always run (at the very minimum):
 
-`gunicorn name_of_my_core_app.wsgi -b 0.0.0.0:1337`
+`gunicorn name_of_my_core_app.wsgi --debug -b 0.0.0.0:1337`
 
 Reason for this is that this:
 
