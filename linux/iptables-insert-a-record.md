@@ -2,6 +2,7 @@
 (resource 'https://www.digitalocean.com/community/tutorials/how-the-iptables-firewall-works')
 (resource 'https://www.digitalocean.com/community/tutorials/how-to-set-up-an-iptables-firewall-to-protect-traffic-between-your-servers')
 (resource 'https://wiki.centos.org/HowTos/Network/IPTables')
+(resource 'https://help.ubuntu.com/community/IptablesHowTo')
 
 $ /sbin/iptables -nL --line-numbers
 $ /sbin/iptables -I INPUT {LINE_NUMBER} -i eth1 -p tcp --dport 21 -s 123.123.123.123 -j ACCEPT -m comment --comment "This rule is here for this reason"
