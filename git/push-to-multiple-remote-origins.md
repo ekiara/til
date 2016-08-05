@@ -16,10 +16,16 @@ Create a new repository with the name new_project
 Create a new repository with the name new_project
 
 <Back to your devmachine>
+
+
 $ git remote add origin git@github.com:<your_github_username>/new_project.git
+
 $ git remote set-url --add --push origin git@bitbucket.org:<your_github_username>/new_project.git
+
 $ git remote set-url --add --push origin git@github.com:<your_github_username>/new_project.git
-$ git remote -v                            
+
+$ git remote -v
+
 origin  git@github.com:<your_github_username>/new_project.git (fetch)                                  
 origin  git@bitbucket.org:<your_github_username>/new_project.git (push)                                
 origin  git@github.com:<your_github_username>/new_project.git (push)                                                                                                   
